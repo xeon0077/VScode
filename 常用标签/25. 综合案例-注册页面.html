@@ -12,7 +12,7 @@
 
     <h4>青春不常在，抓紧谈谈恋爱</h4>
 
-    <table width='500' border="0">
+    <table width='500' border="">
         <!-- 第一行 -->
         <tr>
             <td>性别:</td>
@@ -77,7 +77,8 @@
         <tr>
             <td>婚姻状况:</td>
             <td>
-                <input type="radio" name="marry"> 未婚 <input type="radio" name="marry">已婚
+                <input type="radio" name="marry" id="yihun"> <label for="yihun">未婚</label>
+                <input type="radio" name="marry" id="weihun"> <label for="weihun">已婚</label>
             </td>
         </tr>
         <!-- 第五行 -->
@@ -87,7 +88,7 @@
                 <select name="" id="">
                     <option value="">专科</option>
                     <option value="">本科</option>
-                    <option value="">家里蹲</option>
+                    <option value="" selected='selected'>家里蹲</option>
                   </select>
             </td>
         </tr>
