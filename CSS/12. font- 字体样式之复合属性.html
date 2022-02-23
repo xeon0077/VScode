@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>css字体属性之复合属性</title>
+  <style>
+   /* 文字变倾斜 加粗 字号设置为16px  微软雅黑 */
+    div {
+      font-style: italic;
+      font-weight: 700;
+      font-size: 16px;
+      font-family: 'Microsoft YaHei';
+      /* /复合属性 简写的方式：  4个顺序不能颠倒，必须要有size和family属性 */
+      /* font: font-style font-weight font-size/line-height font-family */
+      font: italic 700 50px 'Microsoft YaHei';
+    }
+
+
+  </style>
+</head>
+<body>
+  <div>键盘敲烂，工资过万</div>
+ 
+</body>
+</html>
